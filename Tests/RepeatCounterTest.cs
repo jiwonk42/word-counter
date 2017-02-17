@@ -21,6 +21,11 @@ namespace RepeatCounterApp
       Assert.Equal(1, repeatCounterTest.CounterRepeats("Hello", "Hello Goodbye"));
     }
 
-    
+    [Fact]
+    public void RepeatCounterCheck_ForUserInputHelloGoodbye_2()
+    {
+      RepeatCounter repeatCounterTest = new RepeatCounter();
+      Assert.Equal(2, repeatCounterTest.CounterRepeats("Hello", "Hello Goodbye Hello"));
+    }
   }
 }
