@@ -11,7 +11,7 @@ namespace RepeatCounterApp
 
       for (int i = 0; i < stringArray.Length; i++)
       {
-        if(userWord.ToLower() == stringArray[i].ToLower())
+        if(userWord != "" && userWord.ToLower() == stringArray[i].ToLower())
         {
           count++;
         }
