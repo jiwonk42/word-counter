@@ -30,7 +30,7 @@ The user enters a word in the first input and a string of multiple words in the 
 * Example Input: {"Hello", "Hello Goodbye Hello"}
 * Example Output: 2
 
-**The user enters a word "HELLO" and a string words, "Herlo", "HEllo", "hello", "HELLO". The program returns 3**
+**The user enters a word "HELLO" and a string words, "Herlo HEllo hello HELLO". The program returns 3**
 * Example Input: {"HELLO", "Herlo HEllo hello HELLO"}
 * Example Output: 3
 
