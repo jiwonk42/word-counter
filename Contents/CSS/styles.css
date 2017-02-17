@@ -16,7 +16,7 @@ form {
   margin-top: 40px;
 }
 
-.form-group {
+span {
   font-family: 'Barrio', cursive;
 }
 
@@ -26,4 +26,12 @@ form {
   width: 120px;
   height: 70px;
   border-radius: 10px;
+}
+
+p {
+  padding-bottom: 50px;
+}
+
+a {
+  font-size: 20px;
 }
