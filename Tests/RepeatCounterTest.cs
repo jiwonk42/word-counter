@@ -14,6 +14,13 @@ namespace RepeatCounterApp
     }
 
     [Fact]
+    public void RepeatCounterCheck_ForUserInput1_0()
+    {
+      RepeatCounter repeatCounterTest = new RepeatCounter();
+      Assert.Equal(0, repeatCounterTest.CounterRepeats("1", "1"));
+    }
+
+    [Fact]
     public void RepeatCounterCheck_ForUserInputHelloGoodbye_0()
     {
       RepeatCounter repeatCounterTest = new RepeatCounter();

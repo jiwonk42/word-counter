@@ -22,6 +22,10 @@ The user enters a word in the first input and a string of multiple words in the 
 * Example Input: {"", ""}
 * Example Output: 0
 
+**The user enters a number. The program returns 0.**
+* Example Input: {"1", "1"}
+* Example Output: 0
+
 **The user enters a word "Hello" and a string of words, "Goodbye". The program returns 0.**
 * Example Input: {"Hello", "Goodbye"}
 * Example Output: 0
