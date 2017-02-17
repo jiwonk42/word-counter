@@ -2,14 +2,13 @@
   Layout="Shared/_Layout.cshtml";
 }
 
-<h1>Word Counter</h1>
 <form action="/result" method="post">
   <div class="form-group">
-    <label for="userWord">Enter your word</label>
+    <label for="userWord">Your Word :: </label>
     <input type="text" name="userWord" id="userWord">
   </div>
   <div class="form-group">
-    <label for="userStrings">Enter your words</label>
+    <label for="userStrings">Your Words: </label>
     <input type="text" name="userStrings" id="userStrings">
   </div>
   <button type="submit" class="btn">Count</button>
