@@ -22,10 +22,11 @@ namespace RepeatCounterApp
     }
 
     [Fact]
-    public void RepeatCounterCheck_ForUserInputHelloGoodbye_2()
+    public void RepeatCounterCheck_ForUserInputHelloGoodbyeHello_2()
     {
       RepeatCounter repeatCounterTest = new RepeatCounter();
       Assert.Equal(2, repeatCounterTest.CounterRepeats("Hello", "Hello Goodbye Hello"));
     }
+
   }
 }
