@@ -8,7 +8,7 @@ namespace RepeatCounterApp
     public int CounterRepeats(string userWord, string userString)
     {
       int count = 0;
-      if(userWord == userString)
+      if(userString.Contains(userWord))
       {
         count++;
       }
