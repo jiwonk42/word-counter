@@ -6,7 +6,7 @@
 
 ## Description
 
-
+The user enters a word in the first input and a string of multiple words in the second input. Then, the program finds words that match user's first input and count number of the word found in the second input, and returns number of the word found.
 
 ## Setup/Installation Requirements
 
@@ -18,11 +18,21 @@
 
 ## Specifications
 
-**The user enters non-alphabetic characters and the program returns a value of 0.**
-* Example Input: "42"
+**The user enters a word "Hello" and a string of words, "Goodbye". The program returns 0.**
+* Example Input: {"Hello", "Goodbye"}
 * Example Output: 0
 
+**The user enters a word "Hello" and a string of words, "Hello Goodbye". The program returns 1.**
+* Example Input: {"Hello", "Hello Goodbye"}
+* Example Output: 1
 
+**The user enters a word "Hello" and a string words, "Hello Goodbye Hello". The program returns 2**
+* Example Input: {"Hello", "Hello Goodbye Hello"}
+* Example Output: 2
+
+**The user enters a word "HELLO" and a string words, "Herlo", "HEllo", "hello", "HELLO". The program returns 3**
+* Example Input: {"HELLO", "Herlo HEllo hello HELLO"}
+* Example Output: 3
 
 ## Support and contact details
 
